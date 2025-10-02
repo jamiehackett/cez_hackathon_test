@@ -1,7 +1,7 @@
 # 1. Start from the official OpenShift AI internal base image
 # Dockerfile
 
-FROM image-registry.openshift-image-registry.svc:5000/redhat-ods-applications/runtime-datascience
+FROM image-registry.openshift-image-registry.svc:5000/redhat-ods-applications/runtime-datascience:1
 
 # 2. Switch to the root user to install packages
 # Switch to the root user to install packages
