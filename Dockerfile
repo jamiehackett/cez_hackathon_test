@@ -1,7 +1,7 @@
 # 1. Start from the official OpenShift AI internal base image
 # Dockerfile
 
-FROM default-route-openshift-image-registry.apps.cluster-dl2xj.dl2xj.sandbox472.opentlc.com/redhat-ods-applications/runtime-datascience
+FROM openshift-image-registry.apps.cluster-dl2xj.dl2xj.sandbox472.opentlc.com/redhat-ods-applications/runtime-datascience
 
 # 2. Switch to the root user to install packages
 # Switch to the root user to install packages
